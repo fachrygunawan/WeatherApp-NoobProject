@@ -1,6 +1,5 @@
-import Header from './Header';
-import Temperature from './Temperature';
-import Details from './Details';
+import Header from '../components/Header';
+import Temperature from '../components/Temperature';
 
 function BoxKiri() {
   return (
@@ -8,7 +7,6 @@ function BoxKiri() {
       <Header />
       <div className="content">
         <Temperature />
-        <Details />
       </div>
     </div>
   );
